@@ -24,5 +24,5 @@ docker build -t meu-aplicativo-html .
 #Após, executar o comando:
 docker run -d -p 8080:80 meu-aplicativo-html
 
-#Isso executará o contêiner em segundo plano e mapeará a porta 8080 do host para a porta 80 do contêiner, onde o servidor Nginx está servindo sua aplicação HTML.
-Agora você pode acessar a sua aplicação HTML em um navegador da web, indo para http://localhost:8080 no seu computador.
+#Isso executará o contêiner em segundo plano e mapeará a porta 8080 do host para a porta 80 do contêiner, onde o servidor Nginx está servindo a aplicação HTML.
+Agora você poderá acessar a aplicação HTML em um navegador da web, indo para http://localhost:8080 no seu computador.
