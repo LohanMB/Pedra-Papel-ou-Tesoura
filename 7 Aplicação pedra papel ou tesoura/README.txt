@@ -3,7 +3,7 @@
 # Use uma imagem base do Nginx
 FROM nginx
 
-# Remova o arquivo padrão do Nginx "SE NECESSÁRIO"
+# Remova o arquivo padrão do Nginx "COMANDO OPCIONAL"
 RUN rm /usr/share/nginx/html/*
 
 # Copie todo o conteúdo da pasta do seu projeto para o diretório padrão do Nginx no contêiner
