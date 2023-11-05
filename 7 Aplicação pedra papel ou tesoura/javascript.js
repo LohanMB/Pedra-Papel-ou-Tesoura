@@ -19,9 +19,7 @@
 
             }
 
-
         }
-
 
         if(playerOpt == "tesoura"){
 
@@ -35,7 +33,6 @@
                 vencedor.innerHTML = "Derrota!";
 
             }
-
 
         }
 
@@ -52,10 +49,7 @@
                 
             }
 
-
         }
-
-
 
     }
 
@@ -81,11 +75,7 @@
 
         }
 
-
-        validarVitoria();
-
-
-    
+        validarVitoria();    
 
     }
 
